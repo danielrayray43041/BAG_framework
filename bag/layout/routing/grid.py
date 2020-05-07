@@ -8,11 +8,11 @@ from typing import TYPE_CHECKING, Sequence, Union, Tuple, List, Optional, Dict, 
 import numpy as np
 
 from ..util import BBox
-from ...util.search import BinaryIterator
-from ...math import lcm
+from bag.util.search import BinaryIterator
+from bag.math import lcm
 
 if TYPE_CHECKING:
-    from ...layout.core import TechInfo
+    from bag.layout.core import TechInfo
 
 
 class RoutingGrid(object):
